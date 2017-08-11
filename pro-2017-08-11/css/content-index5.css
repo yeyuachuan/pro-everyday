@@ -1,0 +1,89 @@
+.content5{
+    width: 100%;
+    height: auto;
+    background-color: #f7f7f7;
+    margin-bottom: 0;
+    padding: 0;
+}
+.content-index5{
+    width: 1200px;
+    height: 1680px;
+    padding-top: 5px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+}
+.content-index5-line{
+    width: auto;
+    height: auto;
+    padding: 30px 40px;
+    border-bottom: 1px dashed #d8d8d8;
+}
+
+.content-index5-line:hover{
+    background-color: #f7f7f7;
+}
+.content-index5-line-div{
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #666666;
+    display: inline-block;
+}
+.content-index5-line-div:first-child{
+    border-radius: 60%;
+    overflow: hidden;
+    background-color: transparent;
+}
+.content-index5-line-div img{
+    height: auto;
+    background-color: transparent;
+}
+.content-index5-line-arrow{
+    width: 800px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.content-index5-line-input{
+    width: 101px;
+    height: 20px;
+    padding: 5px 3px;
+    border-radius: 5px;
+    border:1px solid #6663ab;
+    position: relative;
+    top: -30px;
+    float: right;
+}
+.content-index5-line-input button{
+    width: 101px;
+    height: 24px;
+    margin: 0;
+    text-align: center;
+    font-family: 微软雅黑;
+    color: #666666;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    background: transparent;
+    border:none;
+    outline: none;
+}
+.content-index5-line-input:hover{
+    background-color: #6663ab;
+}
+.content-index5-line-input button:hover{
+    color: white;
+}
+.content-footer-index3{
+    margin-left: 180px;
+}
+.content-index5-btn{
+    position: absolute;
+    top: 100%;
+    margin-top: -200px;
+
+}
