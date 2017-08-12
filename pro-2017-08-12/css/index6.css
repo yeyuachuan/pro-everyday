@@ -1,0 +1,151 @@
+.content{
+    width: 100%;
+    height: auto;
+    background-color:#f7f7f7 ;
+    padding-top: 18px;
+    padding-bottom: 0;
+}
+.content-index6{
+    width: 1201px;
+    height: auto;
+    background-color: white;
+    padding: 17px;
+    margin: 0 auto;
+}
+.writer{
+    width: 100%;
+    height: 283px;
+    margin-top: 12px;
+    border-bottom: 1px dashed #cccccc;
+    position: relative;
+}
+.writer-title{
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #6663ab;
+    display: inline-block;
+}
+.user-inform{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-left: 124px;
+    display: inline-block;
+    position: absolute;
+}
+.user-inform-text{
+    margin-bottom: 5px;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #666666;
+}
+.user-inform-text-content{
+    width: auto;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    display: inline-block;
+}
+.user-inform-text-content-self{
+    position: relative;
+    top: -86px;
+    display: inline-block;
+}
+.user-inform-text-content-long{
+    width: 936px;
+    display: inline-block;
+}
+
+.wirter-value{
+    width: auto;
+    height: auto;
+    border-bottom:1px dashed #cccccc;
+}
+.writer-value-analyze{
+    width: auto;
+    height: 20px;
+    margin-top: 20px;
+    line-height: 20px;
+    text-align: left;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    color: #6663ab;
+}
+.writer-value-analyze-title{
+    width: auto;
+    height: 30px;
+    margin: 21px;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: left;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: black;
+}
+.writer-value-analyze-content{
+    width: auto;
+}
+.writer-value-analyze-content div{
+    width: auto;
+    margin: 0 auto;
+}
+.writer-value-analyze-content div img{
+    width: auto;
+    height: auto;
+}
+.writer-value-analyze-content table{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border-collapse:collapse;
+    border: 1px solid #d9d9d9;
+}
+table thead td{
+    padding: 17px 37px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+}
+table tbody td{
+    padding: 17px 37px;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+}
+
+.writer-result{
+    width: 100%;
+    height: auto;
+}
+.writer-result-content{
+    padding: 26px 17px;
+}
+.writer-result-title{
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: black;
+    margin-bottom: 10px;
+}
+.writer-result-content-text{
+    padding-bottom: 27px;
+    border-bottom:1px dashed #cccccc;
+}
+.writer-result-content-text-left{
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #b2b2b2;
+    display: inline-block;
+}
+.writer-result-content-text-right{
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    color: #b2b2b2;
+    display: inline-block;
+}
+.writer-result-space{
+    width: auto;
+    height: 200px;
+}
