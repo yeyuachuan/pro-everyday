@@ -1,0 +1,70 @@
+.server{
+    width: 126px;
+    height: 117px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px 1px #cccccc;
+    padding: 18px 14px;
+    background-color:#666666;
+    color: white;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    position: fixed;
+    top:80%;
+    left: 80%;
+}
+.server div{
+    margin-bottom: 3px;
+}
+.server-QQ-bottom a{
+    color: white;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    text-align: center;
+}
+.server-QQ-bottom a:hover{
+    color: blue;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    text-decoration: none;
+}
+.server-mail-bottom a{
+    color: white;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    text-decoration: none;
+}
+.server-mail-bottom a:hover{
+    color: blue;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    text-decoration: none;
+}
+
+
+
+.server-pic{
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    margin-left: 180px;
+
+    color: #666666;
+    font-size: 16px;
+    font-family: iconfont;
+    position: fixed;
+    top:80%;
+    left: 80%;
+}
+
+.server-pic div{
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #666666;
+    box-shadow: 1px 1px 1px 1px #cccccc;
+}
+.server-pic div:hover{
+    background-color:#666666;
+    color: white;
+}

@@ -1,0 +1,64 @@
+.header-nav-left ul li a{
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: white;
+    text-decoration: none;
+}
+.header-nav-left ul li a:hover{
+    position: relative;
+    top: 1px;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #b2b2b2;
+}
+.header-nav-right ul li a{
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: white;
+}
+.header-nav-right ul li a:hover{
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #a4a3cc;
+}
+
+.title-nav-left-text ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    color: #666666;
+}
+.title-nav-left-text ul li a:hover{
+    position: relative;
+    top: 1px;
+}
+
+.footer-content-body1-content{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family:微软雅黑;
+    font-size: 14px;
+    color:#b2b2b2;
+}
+.footer-content-body1-content a{
+    font-family:微软雅黑;
+    font-size: 14px;
+    color:#b2b2b2;
+}
+.footer-content-body1-content a:hover{
+
+    font-family:微软雅黑;
+    font-size: 14px;
+    color:#b2b2b2;
+}
+.footer-content-body1-text2 a{
+    font-size: 14px;
+    color:#b2b2b2;
+}
+.footer-content-body1-text2 a:hover{
+    font-size: 14px;
+    color:#b2b2b2;
+}
