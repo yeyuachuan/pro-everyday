@@ -1,0 +1,112 @@
+.chatsetting{
+    width: 370px;
+    height: 418px;
+    box-shadow: 1px 1px 1px 1px #cccccc;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -158px;
+    margin-top: -209px;
+}
+.chatsetting-title{
+    width: auto;
+    height: 20px;
+    padding: 15px 20px;
+    line-height: 20px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #666666;
+}
+.chatsetting-left{
+    float: left;
+}
+.chatsetting-right{
+    float: right;
+}
+
+.chatsetting-body-line{
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    padding: 0px 20px;
+    line-height: 20px;
+}
+
+.chatsetting-body-line div{
+    width: auto;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #666666;
+}
+.chatsetting-body-line div input{
+    width: auto;
+    display: inline-block;
+    height: 20px;
+    margin-top: 3px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #666666;
+}
+.chatsetting-body-line div:nth-child(2){
+    width: 240px;
+    height: 30px;
+    line-height: 20px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: -20px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #666666;
+    padding-left: 15px;
+    border: 1px solid #cccccc;
+}
+.chatsetting-body-line-top{
+    width: 201px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    left: 70px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #666666;
+}
+.chatsetting-body-line-top input{
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+#btn1,#btn2,#btn3{
+    width: 201px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    position: relative;
+    left: 47px;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #666666;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+}
+
+#btn1:hover{
+    color: white;
+    background-color:#6663ab ;
+}
+#btn2:hover{
+    color: white;
+    background-color:#6663ab ;
+}
+#btn3:hover{
+    color: white;
+    background-color:#6663ab ;
+}
