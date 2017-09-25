@@ -1,0 +1,181 @@
+/*头部文字*/
+
+    /*字体库部分*/
+@font-face {
+    font-family: 'iconfont';  /* project id 349494 */
+    src: url('//at.alicdn.com/t/font_tfsb6oxg9tx4j9k9.eot');
+    src: url('//at.alicdn.com/t/font_tfsb6oxg9tx4j9k9.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_tfsb6oxg9tx4j9k9.woff') format('woff'),
+    url('//at.alicdn.com/t/font_tfsb6oxg9tx4j9k9.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_tfsb6oxg9tx4j9k9.svg#iconfont') format('svg');
+}/*
+
+
+/*登录按钮*/
+.test{
+    margin: 0 30px;
+    width: auto;
+    height: 40px;
+    border: none;
+    background-color: rgba(67,204,240,1);
+    border-radius: 5px;
+}
+.test input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-shadow: 0px 1px 1px gray;
+    border-radius: 4px;
+    letter-spacing: 20px;
+    font-family: "Adobe 宋体 Std L";
+    font-size: 16px;
+    color: white;
+}
+
+
+
+
+
+.header-text{
+    width: auto;
+    height: auto;
+    margin: 0px 40px;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+
+/*用户名部分*/
+.test-username{
+    width: auto;
+    height: 20px;
+    padding: 10px 14px;
+    margin: 0 30px;
+    margin-top:20px ;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.test-username-pic{
+    width: auto;
+    height: 20px;
+    display: inline-block;
+    float: left;
+    font-family: iconfont;
+    font-size: 16px;
+    color: aqua;
+}
+.test-username-text{
+    width: auto;
+    height: 20px;
+    display: inline-block;
+    border: none;
+    outline: medium;
+}
+.test-username-text input{
+    width: auto;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    outline: medium;
+}
+
+/*测试密码框*/
+.test-password{
+    width: auto;
+    height: 60px;
+    margin: 10px 30px;
+    padding-top: 10px ;
+}
+.test-password-text{
+    width: auto;
+    height: 20px;
+    padding: 10px 4px;
+    margin-right: 100px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.test-password-text-pic{
+    width: auto;
+    height: 20px;
+    margin-left: 10px;
+    float: left;
+    font-family: iconfont;
+    font-size: 16px;
+    color: aqua;
+}
+
+.test-password-text1{
+    width: auto;
+    height: 20px;
+    margin:  0 auto;
+}
+.test-password-text1 input{
+    width: auto;
+    height: 20px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    outline: medium;
+}
+
+
+
+/*密码框的按钮*/
+.test-password-btn{
+    width: 90px;
+    height: 29px;
+    float: right;
+    padding: 6px 0px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px gray;
+    background-color: rgba(255,210,124,1);
+}
+.test-password-btn:active{
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+.test-password-btn input{
+    width: auto;
+    height: auto;
+    margin-left: 5px;
+    font-family: "Adobe 宋体 Std L";
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+
+
+/*底部文字*/
+.footer-text{
+    width: auto;
+    height: auto;
+    margin: 10px 40px;
+}
+.footer-text a{
+    font-family: "Adobe 宋体 Std L";
+    font-weight: 300;
+    color: orange;
+}
+
+/*logo*/
+
+.logo{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 10%;
+}
+.logo>img{
+    width: 100%;
+    margin: 0 auto;
+}
