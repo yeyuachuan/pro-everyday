@@ -1,0 +1,531 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 361850 */
+    src: url('//at.alicdn.com/t/font_08uqiufy76iuow29.eot');
+    src: url('//at.alicdn.com/t/font_08uqiufy76iuow29.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_08uqiufy76iuow29.woff') format('woff'),
+    url('//at.alicdn.com/t/font_08uqiufy76iuow29.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_08uqiufy76iuow29.svg#iconfont') format('svg');
+}
+.header{
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #c41411;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.header-search{
+    width: auto;
+    height: 30px;
+    border: 1px solid #c6c6c6;
+    background-color: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.header-search-pic{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-family: iconfont;
+    font-size: 20px;
+    color: #c6c6c6;
+    z-index: 11;
+}
+.header-search-inp{
+    width: auto;
+    height: 20px;
+    margin-top: 4px;
+    margin-left: 45px;
+}
+.header-search-inp input{
+    width: 100%;
+    height: 20px;
+    line-height: 16px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+/*走马灯*/
+.ppt{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.pics{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.pic{
+    float: left;
+}
+.l{
+    width: 40px;
+    height: 60px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top:64px;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+}
+.r{
+    width: 40px;
+    height: 60px;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    right: 0;
+    top:64px;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+}
+.square{
+    width: 100px;
+    height: 16px;
+    position: absolute;
+    left:200px;
+    bottom: 20px;
+}
+.center{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+    float: left;
+    margin: 0 5px;
+}
+.center.h{
+    background: blue;
+}
+/*导航栏*/
+.nav-top{
+    width: 100%;
+    height: auto;
+    margin-top: 65px;
+}
+.nav-top img{
+    width: 100%;
+    height: auto;
+}
+.nav-content{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+.nav-bottom{
+    width: auto;
+    height: 100px;
+    margin: 0 25px ;
+}
+.nav-bottom-content{
+    width: 25%;
+    height: 100px;
+    float: left;
+}
+.nav-bottom-content-pic{
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    margin: 10px auto;
+    line-height: 36px;
+    border-radius: 25%;
+    font-family: iconfont;
+    font-size: 26px;
+    color: white;
+}
+.nav-bottom-content-text{
+    text-align: center;
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: #b2b2b2;
+}
+.first-back{
+    background-color: #54c2f5;
+}
+.second-back{
+    background-color: #f56e7d;
+}
+.third-back{
+    background-color: #fbd213;
+}
+.fourth-back{
+    background-color: #6ed32a;
+}
+/*body*/
+.test{
+    width: 100%;
+    height: 400px;
+}
+.content{
+    width: auto;
+    height: auto;
+}
+.teacher{
+    width: auto;
+    height: 268px;
+    background-color: #feffff;
+}
+.teacher-header{
+    width: 100%;
+    height: 40px;
+    float: left;
+    background-color: #f1f1f1;
+}
+.teacher-header-center{
+    width: 70%;
+    height: 40px;
+    margin:0 auto;
+}
+.teacher-header-center>div{
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    margin:0 auto;
+    float: left;
+    text-align: center;
+    font-family: 微软雅黑;
+    font-size: 22px;
+    color: #70c305;
+}
+.teacher-header-center>div:nth-child(1){
+    width: 30%;
+    margin-top: 20px;
+    float: left;
+    border-top: 1px solid #70c305;
+}
+.teacher-header-center>div:nth-child(2){
+    width: 40%;
+    float: left;
+}
+.teacher-header-center>div:nth-child(3){
+    width: 30%;
+    margin-top: 20px;
+    float: right;
+    border-top: 1px solid #70c305;
+}
+.teacher-content{
+    float: left;
+    width: 100%;
+    height: 228px;
+}
+.teacher-content-top{
+    width: auto;
+    height: 130px;
+    border-bottom: 1px solid #b2b2b2;
+}
+.teacher-content-top-left{
+    width: 50%;
+    height: 130px;
+    float: left;
+    border-right: 1px solid #b2b2b2;
+}
+.teacher-content-top-right{
+    width: 50%;
+    height: 130px;
+    margin-left: 50%;
+}
+.teacher-content-top-right-top{
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid #b2b2b2;
+}
+.teacher-content-bottom{
+    width: auto;
+    height: 96px;
+    border-bottom: 1px solid #b2b2b2;
+}
+.teacher-content-bottom-left{
+    width: 50%;
+    height: 96px;
+    float: left;
+    border-right: 1px solid #b2b2b2;
+}
+.teacher-content-bottom-right{
+    width: 50%;
+    height: 66px;
+    margin-left: 50%;
+}
+/*潮品推荐*/
+.teacher-content-bottom-left-left{
+    width: 50%;
+    height: 96px;
+    float: left;
+    border-right: 1px solid #b2b2b2;
+}
+.teacher-content-bottom-left-right{
+    width: 50%;
+    height: 96px;
+    margin-left: 50%;
+}
+.teacher-content-bottom-right-left{
+    width: 50%;
+    height: 96px;
+    float: left;
+    border-right: 1px solid #b2b2b2;
+}
+.teacher-content-bottom-right-right{
+    width: auto;
+    height: 36px;
+    margin-left: 50%;
+}
+
+.teacher-unrealcard{
+    width: auto;
+    height: 365px;
+    background-color: #feffff;
+}
+
+/*节日礼物图片布置*/
+.gift{
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+.gift-pic{
+    width: auto;
+    height: 100px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.gift-pic img{
+    width: auto;
+    height: 100px;
+    float: right;
+}
+.gift-text{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.gift-text-top{
+    width: auto;
+    height: 24px;
+    float: left;
+    line-height: 26px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #f56e7d;
+    font-family: 微软雅黑 ;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+.gift-text-bottom{
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.gift-text-bottom-left,.gift-text-bottom-right{
+    color: #737373;
+    font-family: 微软雅黑 ;
+    font-size: 12px;
+}
+.gift-text-bottom-left{
+    float: left;
+}
+.gift-text-bottom-left{
+    float: right;
+}
+
+/*右侧上方图片*/
+.right-top-gift{
+    width: 99%;
+    height: auto;
+    float: right;
+    position: relative;
+}
+.right-top-gift-left{
+    width: auto;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 10px;
+    position:absolute ;
+    left: 0;
+    top: 0;
+}
+.right-top-gift-left-top{
+    width: auto;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    color: #191919;
+    font-family: 微软雅黑 ;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.right-top-gift-left-bottom{
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.right-top-gift-left-bottom-left,.right-top-gift-left-bottom-right{
+    color: #737373;
+    font-family: 微软雅黑 ;
+    font-size: 12px;
+}
+.right-top-gift-left-bottom-left{
+    float: left;
+}
+.right-top-gift-left-bottom-right{
+    float: right;
+}
+
+.right-top-gift-right{
+    width: auto;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 25px;
+    float: right;
+}
+.right-top-gift-right img{
+    width: auto;
+    height: 50px;
+}
+
+/*下方四格小栏目图片布置*/
+.bottom{
+    width: 100%;
+    height: auto;
+}
+.bottom-text{
+    width: auto;
+    height: 96px;
+    margin: 0 auto;
+}
+.bottom-text-top{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    margin: 0 auto;
+    color: #191919;
+    font-family: 微软雅黑 ;
+    font-size: 14px;
+}
+.bottom-text-bottom{
+    width: 100%;
+    height: 12px;
+    text-align: center;
+    line-height: 12px;
+    color: #737373;
+    font-family: 微软雅黑 ;
+    font-size: 12px;
+    margin-left: 10px;
+    position: relative;
+}
+.bottom-text-bottom-left{
+    transform-origin-x:0 ;
+    transform: scale(0.4);
+    float: left;
+}
+.bottom-text-bottom-right{
+    transform-origin-x:0 ;
+    transform: scale(0.4);
+    float: right;
+
+}
+.bottom-pic{
+    width: auto;
+    height: 64px;
+    margin-top: -64px;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.bottom-pic img{
+    width: auto;
+    height: 56px;
+}
+/*卡片*/
+.cards-text-left{
+    font-family: 微软雅黑;
+    color: #f68001;
+}
+/*旅游推荐*/
+.tour{
+    width: 100%;
+    height: 171px;
+}
+.tour-content{
+    width: 100%;
+    height: 131px;
+}
+
+
+/*footer*/
+.content-bottom-1{
+    margin-bottom: 63px;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 63px;
+    padding-top: 15px;
+    position: fixed;
+    top: 100%;
+    border-top: 1px solid #c6c6c6;
+    margin-top: -75px;
+    background-color: #ffffff;
+}
+.footer-index,.footer-classful,.footer-shop,.footer-mainer{
+    width: 25%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    font-family: iconfont;
+    font-size: 30px;
+    color: #c6c6c6;
+}
+p{
+    font-weight: normal;
+    margin-top: 5px;
+    font-family: 微软雅黑;
+    font-size: 20px;
+    color: #c6c6c6;
+}
+p:hover{
+    color: red;
+}
+.footer-index:hover{
+    color: red;
+}
+.footer-classful:hover{
+    color: red;
+}
+.footer-shop:hover{
+    color: red;
+}
+.footer-mainer:hover{
+    color: red;
+}
+.footer-classful{
+    font-size: 40px;
+    font-weight: 900;
+}
+.footer-mainer{
+    font-weight: 900;
+}
+
